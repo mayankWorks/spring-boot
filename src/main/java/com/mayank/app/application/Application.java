@@ -16,6 +16,7 @@ import org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration;
 //@EnableAutoConfiguration
 public class Application {
 
+	
 	/**
 	 * @param args
 	 */
