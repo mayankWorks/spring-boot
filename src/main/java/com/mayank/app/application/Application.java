@@ -5,16 +5,16 @@ package com.mayank.app.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration;
+import org.springframework.boot.context.web.SpringBootServletInitializer;
 
 /**
  * @author Maverick
  *
  */
-@SpringBootApplication(exclude = { ErrorMvcAutoConfiguration.class})
+@SpringBootApplication()//exclude = { ErrorMvcAutoConfiguration.class}
 //@ComponentScan
 //@EnableAutoConfiguration
-public class Application {
+public class Application  extends SpringBootServletInitializer{
 
 	
 	/**
