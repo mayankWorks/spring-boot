@@ -12,9 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @RestController
-//@RequestMapping("/")
+@RequestMapping("/")
 //@SpringBootApplication
 public class MainApi {
+	
+	
 
 	
 	@RequestMapping(value="/hello")
