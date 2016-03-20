@@ -16,9 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 //@SpringBootApplication
 public class MainApi {
 	
-	
-
-	
 	@RequestMapping(value="/hello")
 	public @ResponseBody String hello(){
 		
