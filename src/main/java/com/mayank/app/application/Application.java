@@ -12,19 +12,11 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
  *
  */
  
-
 @SpringBootApplication()//exclude = { ErrorMvcAutoConfiguration.class}
 //@ComponentScan
 //@EnableAutoConfiguration
 public class Application  extends SpringBootServletInitializer{
-
 	
-	
-	
-	
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		SpringApplication.run(Application.class, args);
