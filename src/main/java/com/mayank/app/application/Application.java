@@ -12,11 +12,15 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
  *
  */
  
+
 @SpringBootApplication()//exclude = { ErrorMvcAutoConfiguration.class}
 //@ComponentScan
 //@EnableAutoConfiguration
 public class Application  extends SpringBootServletInitializer{
 
+	
+	
+	
 	
 	/**
 	 * @param args
