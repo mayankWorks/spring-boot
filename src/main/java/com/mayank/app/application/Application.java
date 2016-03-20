@@ -11,6 +11,7 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
  * @author Maverick
  *
  */
+ 
 @SpringBootApplication()//exclude = { ErrorMvcAutoConfiguration.class}
 //@ComponentScan
 //@EnableAutoConfiguration
